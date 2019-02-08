@@ -1,17 +1,17 @@
 {
-  "name": "boilerplate-react-app",
+  "name": "timestamp-microservice",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Alexander Molnar",
   "license": "MIT",
   "scripts": {
     "dev": "parcel public/index.html",
-    "build:prod": "parcel build public/index.html out-dir prod"
+    "build": "parcel build public/index.html --out-dir prod"
   },
   "dependencies": {
     "express": "4.15.4",
     "node-sass": "4.5.3",
-    "normalize.css": "7.0.0",
+    "normalize.css": "8.0.1",
     "react": "16.0.0",
     "react-addons-shallow-compare": "^15.6.2",
     "react-dates": "12.7.0",
